@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database and OS files
+campusresale.db
+.DS_Store
+
+# Ignore runtime uploads except the committed demo assets
+uploads/*
+!uploads/campus_bicycle.jpg
+!uploads/college_backpack.jpg
+!uploads/engineering_textbook.jpg
+!uploads/scientific_calculator.jpg
+!uploads/study_table.jpg
+!uploads/wireless_mouse.jpg
